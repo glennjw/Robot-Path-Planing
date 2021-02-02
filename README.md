@@ -28,6 +28,6 @@ Use the LiDAR data for generating the map with the SLAM node in ROS.
 
 ## Result
 <div align="center">
-  <img src="https://www.tensorflow.org/images/tf_logo_social.png">
+  <img src="https://github.com/glennjw/Robot-Path-Planing/blob/main/Result.png">
 </div>
 
