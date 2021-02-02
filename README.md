@@ -27,6 +27,10 @@ Use the LiDAR data for generating the map with the SLAM node in ROS.
     
 
 ## Result
+
+Green dot:  Current position.
+Black dot:  Destination.
+
 <div align="center">
   <img src="https://github.com/glennjw/Robot-Path-Planing/blob/main/Result.png">
 </div>
