@@ -7,7 +7,7 @@ Use the LiDAR data for generating the map with the SLAM node in ROS.
 
 ## How to run
 
-1. Unzip folder hao_a3 to 
+1. Download folder "script" to 
 >    ~/catkin_ws/src/ 
 
 2. Build the pkg: 
