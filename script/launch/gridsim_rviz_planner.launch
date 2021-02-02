@@ -1,0 +1,14 @@
+<launch>
+
+    <node pkg="rosservice" type="rosservice" name="switch_ranger" args="call --wait /switch_ranger sonar_pioneer true"/>
+    <!-- Run the simulator !-->
+    <node pkg="hao_a3" type="gridsim.py" name="gridsim" output="screen"/>
+
+    <!-- Start rviz with our configuration file that brings up the map, markers, and which has the 2D Nav Goal feature set to update /goal_pos !-->
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find hao_a3)/rviz.rviz"/>
+
+    <!-- Start the planner. !-->
+    <node pkg="hao_a3" type="planner.py" name="planner" output="screen"/>
+
+
+</launch>
